@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>How To Make Southwestern Stir-Fry Recipe</title>
+</head>
+<body>
+    <div id="introduction">
+	    <h1>How to Make Southwestern Stir-Fry</h1>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#ingredients etc.">Materials</a></li>
+            <li><a href="#instructions">Instructions</a></li>
+        </ul>
+	<p>My mom has been making this recipe ever since I can remember. Recently I decided to take a crack at it myself, and came up with a few modifications that I think make it even better. Let's get started!</p>
+</div>
+<br>
+<div id="ingredients etc.">
+<!-- For some reason I decided to put the ingredients and tools in a separate div from the instructions...-->
+	<h2>Tools</h2>
+    <p>Here's what you'll need to make Southwestern Stir Fry.</p>
+    <ul>
+    	<li><a href="https://www.amazon.com/large-skillet/s?k=large+skillet" target="_blank">Large skillet</a></li>
+        <li>Medium bowl</li>
+        <li>Cutting board</li>
+        <li>Knife</li>
+    </ul>
+    <br>
+    <h2>Ingredients</h2>
+    <ul>
+    	<li>2 large chicken breasts</li>
+        <li>1 large onion, sliced</li>
+        <li>About 5 cloves garlic, minced</li>
+        <li>2 bell peppers, sliced</li>
+        <li>2 zuchinnis or summer squashes, cubed</li>
+        <li>1 can of corn (or about 1 cup of frozen corn), drained</li>
+        <li>1-2 cans of black beans, drained</li>
+        <li>1 can of diced or fire-roasted tomatoes</li>
+        <li>2 limes</li>
+    </ul>
+    <br>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUlvBuVKk6mBTM5_0S7yoaiQb8_lSrXl4YOg&usqp=CAU"/></a><br>
+    <br>
+    <h3>Spices and Seasonings</h3>
+    <ul>
+    	<li>Salt</li>
+        <li>Black pepper</li>
+        <li>Chili powder</li>
+        <li>Garlic powder</li>
+        <li>Onion powder</li>
+        <li>Cumin</li>
+        <li>Oregano</li>
+        <li>Smoked paprika</li>
+    </ul>   
+</div>
+<div id="instructions">
+	<h2>Instructions</h2>
+    <ol>
+    	<li>Cube your chicken. Salt it, season it with a sprinkle of each of the seasonings listed above as well as a splash of lime juice. Make sure the chicken is fully covered in seasoning. Set aside in a bowl or Ziplock bag while you chop the veggies.</li>
+        <li>Heat a large skillet over medium heat and add neutral-flavored oil. When the oil shimmers, add the chicken. When it's nearly cooked through, remove from heat and set aside on a plate or in a bowl.</li>
+        <li>Add more oil to the skillet (if needed). Add the onions and cook until blonde, about 8-10 minutes. Then, add the garlic and cook until fragrant but not brown, about 20 seconds.</li>
+        <li>Add the peppers and squash and cook until they begin to soften, about 10 minutes.</li>
+        <li>Now add the drained corn and beans and the undrained diced or fire-roasted tomatoes. Season everything generously to taste.</li>
+        <li>When the veggies are soft, add the chicken back into the pot. Squeeze a few tablespoons of lime juice over everything.</li>
+        <li>Cover and simmer for 10+ minutes, until the veggies are tender and the chicken is cooked.</li>
+        <li>Adjust seasoning.</li>
+        <li>Serve with fresh salsa on warm tortillas; cheese optional.</li>
+   </ol>
+
+</div>
+<div id="footer">
+    <p>Enjoy!</p>
+    <br>
+    <a href="./index.html">Recipe</a>
+    <a href="./aboutme.html">About Me</a>
+</div>
+</body>
+</html>

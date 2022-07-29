@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <h1>Let's order a pizza.</h1>
+</header>
+<hr>
+<body>
+    <div id="pizza order form">
+    <form>
+        <section class="pizza type">
+            <span>What type of pizza would you like?</span>
+            <br>
+            <input type="radio" id="regular" name="pizza type" value="regular"></input>
+            <label for="regular">Regular</label>
+            <br>
+            <input type="radio" id="deep dish" name="pizza type" value="deep dish"></input>
+            <label for="deep dish">Deep Dish</label>
+        </section>
+        <br>
+        <section class="dough type">
+        <label for="dough">What type of dough would you like?</label>
+        <br>
+            <select name="dough" id="dough">
+                <option value="normal">Normal</option>
+                <option value="gluten free">Gluten Free</option>
+                <option value="whole wheat">Whole Wheat</option>
+            </select>
+            <br><br>
+        </section>
+        <section class="sauce">
+            <span>What type(s) of sauce would you like?</span>
+            <br>
+            <input type="checkbox" name="sauce" id="red sauce" value="red sauce"></input>
+            <label for="red sauce">Red Sauce</label>
+            <br>
+            <input type="checkbox" name="sauce" id="white sauce" value="white sauce"></input>
+            <label for="white sauce">White Sauce</label>
+            <br>
+            <input type="checkbox" name="sauce" id="pesto sauce" value="pesto sauce"></input>
+            <label for="pesto sauce">Pesto Sauce</label>
+            <br><br>
+        </section>
+        <section class="cheese">
+            <span>What type(s) of cheese would you like?</span>
+            <br>
+            <input type="checkbox" name="cheese" id="mozarella" value="mozarella"></input>
+            <label for="mozarella">Mozarella</label>
+            <br>
+            <input type="checkbox" name="cheese" id="meunster" value="meunster"></input>
+            <label for="meunster">Meunster</label>
+            <br>
+            <input type="checkbox" name="cheese" id="pepper jack" value="pepper jack"></input>
+            <label for="pepper jack">Pepper Jack</label>
+            <br>
+            <input type="checkbox" name="cheese" id="provalone" value="provalone"></input>
+            <label for="provalone">Provalone</label>
+            <br><br>
+            <span>How much cheese would you like?</span>
+            <input type="range" name="cheesiness" id="cheesiness" value="5" min="0" max="10"></input>
+            <br><br>
+        </section>
+        <section class="toppings">
+            <span>Choose your toppings.</span>
+            <br>
+            <input type="checkbox" name="toppings" id="peppers" value="peppers"></input>
+            <label for="peppers">Peppers</label>
+            <input type="checkbox" name="toppings" id="olives" value="olives"></input>
+            <label for="olives">Olives</label>
+            <input type="checkbox" name="toppings" id="anchovies" value="anchovies"></input>
+            <label for="anchovies">Anchovies</label>
+            <input type="checkbox" name="toppings" id="pineapple" value="pineapple"></input>
+            <label for="pineapple">Pineapple</label>
+            <br><br>
+        </section>
+        <section class="meats">
+            <span>Pick your meats.</span>
+            <br>
+            <input type="checkbox" name="meats" id="chicken" value="chicken"></input>
+            <label for="chicken">Chicken</label>
+            <input type="checkbox" name="meats" id="pepperoni" value="pepperoni"></input>
+            <label for="pepperoni">Pepperoni</label>
+            <input type="checkbox" name="meats" id="sausage" value="sausage"></input>
+            <label for="sausage">Sausage</label>
+            <input type="checkbox" name="meats" id="ham" value="ham"></input>
+            <label for="ham">Ham</label>
+            <br><br>
+        </section>
+        <section class="name">
+            <span>Please give us a name for your order.</span>
+            <br>
+            <label for="order_name">Your name: </label>
+            <input type="text" id="order_name" name="order name"></input>
+            <br><br>
+        </section>
+        <section class="to go?">
+            <span>Will this be a to-go order?</span>
+            <br>
+            <input type="radio" name="to-go" id="no" value="no"></input>
+            <label for="no">No</label>
+            <input type="radio" name="to-go" id="yes" value="yes"></input>
+            <label for="yes">Yes</label>
+        </section>
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>A Little Table Exercise</title>
+</head>
+<body>
+    <h1>A Beginner's Guide to Star Wars</h1>
+    <p>Ever felt lost trying to figure out what order to watch the Star Wars movies in? You are in luck! Just take a look at the table below.</p>
+
+    <div id="main trilogies">
+        <h2>Main Trilogies></h2>
+        <table>
+        <thead>
+            <tr> <!--Headers-->
+                <th scope="col">In-World Chronology</th>
+                <th scope="col">Real-World Chronology</th>
+                <th scope="col">Title</th>
+                <th scope="col">Plot</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><!--Row 1-->
+                <td>1</td>
+                <td>4</td>
+                <td>The Phantom Menace</td>
+                <td>Among political intrigue and stirrings of war, young Anakin Skywalker, a slave boy, is discovered on the planet Tattooine and taken in by the Jedi, a mysterious order of what are basically space wizards.</td>
+            </tr>
+            <tr><!--Row 2-->
+                <td>2</td>
+                <td>5</td>
+                <td>Attack of the Clones</td>
+                <td>Anakin Skywalker, now a teenager, struggles with the responsibilities and restrictions of his life as a Jedi and tries to shake his nightmares of losing his loved ones. Meanwhile, a mysterious power is growing and pulling the strings behind the scenes.</td>
+            </tr>
+            <tr><!--Row 3-->
+                <td>3</td>
+                <td>6</td>
+                <td>Revenge of the Sith</td>
+                <td>Now a young adult, Anakin Skywalker faces seemingly irreconcilable parts of his identity. Still terrified of losing everything he loves, he is easily manipulated by a Sith, basically a bad space wizard. What will he do at the critical moment?</td>
+            </tr>
+            <tr><!--Row 4-->
+                <td>4</td>
+                <td>1</td>
+                <td>A New Hope</td>
+                <td>Several decades after the events of the Revenge of the Sith, a young man named Luke Skywalker is thrown into an adventure that takes him far away from home when a young woman asks his mentor for help. Guided by the Force (basically space wizard magic), Luke manages to destroy the Death Star, a WMD made by the sinister villain Darth Vader.</td>
+            </tr>
+            <tr><!--Row 5-->
+                <td>5</td>
+                <td>2</td>
+                <td>The Empire Strikes Back</td>
+                <td>Luke, his newfound friends Han and Leia, and the Rebel Alliance barely escape a bitter retributive attack on their hideout by the forces of Darth Vader. Deciding it's time for him to begin his training as a Jedi, Luke sets off to find the mysterious Jedi master, Yoda. Meanwhile, Han, Leia and company are pursued across the galaxy by Darth Vader. Luke comes to their rescue, albeit a little late to save Han. While there, he learns a horrifying secret about Vader.</td>
+            </tr>
+            <tr><!--Row 6-->
+                <td>6</td>
+                <td>3</td>
+                <td>Return of the Jedi</td>
+                <td>One year after the events of The Empire Strikes Back, Luke sets out to free Han from his imprisonment. It's revealed that Darth Vader's Empire has constructed another Death Star; the group sets out to destroy it once again. On their mission, Luke faces off with Darth Vader once again; but will he be able to face Vader AND stay true to his values?</td>
+            </tr>
+            <tr><!--Row 7-->
+                <td colspan="2">7</td>
+                <td>The Force Awakens</td>
+                <td>It's 30 years after Return of the Jedi. There's a girl named Rey, an ex-storm trooper named Finn, a hotshot pilot named Poe, and elderly Leia. Luke is missing. There's a new big baddie named Kylo Ren and it's Leia's son and he's just an angsty boi. Rey is force sensitive, or something, and sets out to try to find Luke to Save Them All.</td>
+            </tr>
+            <tr><!--Row 8-->
+                <td colspan="2">8</td>
+                <td>The Last Jedi</td>
+                <td>Poe is just stupid for like 3 hours straight. They find Luke but he doesn't want to help, but he gives Rey a couple pointers anyway. Rey has a psychic connection with Kylo Ren and it's really awkward. Finn and new friend Rose go on a wild goose chase. Kylo Ren looks like he'll turn good, but ends up cornering the Rebellion. Luke shows up and Saves The Day, even tho he said he wouldn't; then he dies.</td>
+            </tr>
+            <tr><!--Row 9-->
+                <td colspan="2">9</td>
+                <td>The Rise of Skywalker</td>
+                <td>Turns out the REALLY big baddie from movies 4, 5 and 6 did NOT die like you thought he did, and he's been Pulling The Strings for a Long Time. Rey and company go on a hunt for a series of McGuffins, pursued by Kylo Ren. Leia dies and that turns Kylo Ren back into Ben Solo (his pre-evil identity). Rey and the Rebellion go confront The Big Baddie, who tries to turn her evil; but she and Ben team up against him and defeat him. Ben dies and Rey claims the name of "skywalker" for herself.</td>
+            </tr>
+        </tbody>
+        </table>
+
+
+    </div>
+
+</body>
+</html>
