@@ -104,7 +104,7 @@
         <section class="special_instructions">
             <label for="special">Anything else you'd like to add?</label>
             <br>
-            <textarea id="special" name="special" rows="3" cols="40">Type your response here.</textarea>
+            <textarea id="special" name="special" rows="3" cols="40" placeholder="Type your response here."></textarea>
             <br><br>
         </section>
         <section class="submit">
