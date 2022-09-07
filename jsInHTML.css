@@ -1,0 +1,33 @@
+* {
+    background-color: aliceblue;
+    text-align: center;
+    font-family: Helvetica;
+    box-sizing: border-box;
+  }
+  
+  h3 {
+    font-style: italic;
+    color: darkslategray;
+  }
+  
+  body {
+    margin: 50px;
+  }
+  
+  input {
+    margin: 20px;
+    text-align: left;
+    height: 40px;
+    width: 200px;
+  }
+  
+  button {
+    background-color: teal;
+    width: 65px;
+    height: 40px;
+    border: teal;
+  }
+  
+  button:hover {
+    border: black;
+  }
