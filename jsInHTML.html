@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <header>
+        <h1>Is there free lunch at the office today?</h1>
+        <h3>A quick exercise in Javascript-In-HTML to see if I can get it working</h3>
+    </header>
+    <br>
+    <section class="input">
+        <span>What day is it?</span>
+        <input type="text" name="day" id="day" placeholder="Type here">
+        <script>
+            function freeLunch(day) {
+                let weekDay = document.getElementById('day').value; //this was it!!!!!!! Stored the "day" input as a value weekDay.
+                if (weekDay === 'Wednesday') {
+                    document.getElementById("results").innerHTML = "Free lunch!"; //I was putting these in parentheses instead of using the HTML convention of ="text".
+                } else if (weekDay !== 'Wednesday') {
+                    document.getElementById("results").innerHTML = "No free lunch.";
+                }
+            }
+        </script>
+        <button type="button" onclick="freeLunch()">Check</button>
+        <br><br>
+        <span id="results">Lunch status will appear here.</span>
+    </section>
+</body>
+</html>
